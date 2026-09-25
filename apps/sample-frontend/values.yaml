@@ -157,8 +157,7 @@ volumeMounts: []
   #   mountPath: "/etc/foo"
   #   readOnly: true
 
-nodeSelector:
-  type: frontend
+nodeSelector: {}
 
 tolerations: []
 
